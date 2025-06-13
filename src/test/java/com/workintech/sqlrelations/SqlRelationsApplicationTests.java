@@ -152,12 +152,5 @@ class SqlRelationsApplicationTests {
 
 		assertNotNull(foundOperation);
 
-		/*List<Operation> operationList = operationRepository.findAll();
-		Operation foundOperation = operationList.stream()
-				.filter(operation1 -> operation1.getDoctorId() == savedDoctor.getId())
-				.findFirst()
-				.orElse(null);
-
-		assertNotNull(foundOperation);*/
 	}
 }
